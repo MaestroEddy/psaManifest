@@ -13,6 +13,6 @@ let package = Package(name: "Okay",
                                               checksum: "1b95bc6a3415b5905d290a56e036bae426c6c75bd4dcc2cd672e09bb5b3f7ab0"),
                                 .binaryTarget(name: "PSA", 
                                               url: "https://github.com/MaestroEddy/PSACommonPackage/raw/b3553042102c9a9ebc0d7343bd880d47018e098a/PSA.xcframework.zip", 
-                                              checksum: "1b95bc6a3415b5905d290a56e036bae426c6c75bd4dcc2cd672e09bb5b3f7ab0")
+                                              checksum: "fd0b6f916f43e51136096787e79b50c701ce9cd1082b17b86563108002d356e1")
                                ]
                      )
