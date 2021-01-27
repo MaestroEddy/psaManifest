@@ -1,10 +1,10 @@
 // swift-tools-version:5.3
 import PackageDescription
 
-let package = Package(name: "Okay",
+let package = Package(name: "PSA",
                       platforms: [.macOS(.v10_14), .iOS(.v10)],
-                      products: [.library(name: "Okay", targets: ["PSACommon", "ePaymentsUI", "PSA", "Okay"])],
-                      targets: [.target(name: "Okay"),
+                      products: [.library(name: "PSA", targets: ["PSACommon", "ePaymentsUI", "PSA"])],
+                      targets: [
                                 .binaryTarget(name: "PSACommon", 
                                               url: "https://github.com/MaestroEddy/PSACommonPackage/raw/df6058e1ab232104ae1f9f9ad328de7f9acdf37b/PSACommon.xcframework.zip", 
                                               checksum: "bfabff6827a014fa34f6496f59b06bea0480f163bc41fc5145fdc9defce5436c"),
